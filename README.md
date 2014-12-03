@@ -6,7 +6,7 @@ Current status:
 ```
 $ softcover check
 Checking Softcover dependencies...
-Checking for LaTeX...         Missing
+Checking for LaTeX...         Found
 Checking for ImageMagick...   Found
 Checking for Node.js...       Found
 Checking for PhantomJS...     Missing

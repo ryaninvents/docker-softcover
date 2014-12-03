@@ -13,4 +13,4 @@ RUN tar xzf rubygems.tgz
 RUN apt-get install -y ruby1.9.1-dev patch build-essential libcurl4-openssl-dev zip texlive-full
 WORKDIR /rubygems-2.4.4
 RUN ruby setup.rb
-RUN gem install softcover
+RUN gem install softcover --no-ri --no-rdoc
